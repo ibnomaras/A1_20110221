@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1488041949 source:/home/abdelrhman/Documents/CodeBlocks Projects/Assignment1/Assignment/main.cpp
+	<iostream>
+	<sstream>
+
+1488042316 source:/home/abdelrhman/Documents/CodeBlocks Projects/A1_20110221/A1_P1_20110221/main.cpp
+	<iostream>
+	<sstream>
+
