@@ -99,9 +99,12 @@ class StudentName
         {
             state = "true";
             int posofname1 = name.find(name1) ;
-            int posofname2 = name.find(name2) ;
-            name.replace(posofname1,name1.length(),name2);
-            name.replace(posofname2,name2.length(),name1);
+            int posofname2 = name.find(name2);
+            int diff = 0 ;
+            diff = name2.length() - name1.length() ;
+            //cout << posofname1 << "   " <<posofname2 << "  " << diff <<  endl;
+            name.replace(posofname1,name1.size(),name2);
+            name.replace(posofname2 + diff,name2.size(),name1);
             return state ;
         }
 
